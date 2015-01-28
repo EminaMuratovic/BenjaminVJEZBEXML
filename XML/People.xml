@@ -1,0 +1,21 @@
+<?xml version = "1.0"?>
+<people>
+	<person name = "Gorjan" surname = "Kalauzovic" >
+		<child name = "Selma" surname = "Tabakovic" />
+	</person>
+	<person name = "Hiko" surname = "Lini" >
+		<child name = "Selma" surname = "Tabakovic" />
+	</person>
+	<person name = "Jesenko" surname = "Gavric" >
+		<child name = "Amra" surname = "Poprzanovic" />
+	</person>
+	<person name = "Vedad" surname = "Zornic" >
+		<child name = "Nermin" surname = "Vucinic" />
+	</person>
+	<person name = "Sanela" surname = "Grcic" >
+		<child name = "Selma" surname = "Tabakovic" />
+	</person>
+	<person name = "Emina" surname = "Muratovic" >
+		<child name = "Selma" surname = "Tabakovic" />
+	</person>
+</people>
