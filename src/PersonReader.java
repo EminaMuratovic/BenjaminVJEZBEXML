@@ -26,8 +26,9 @@ public class PersonReader {
 				Element currentEl = (Element) current;
 				String name = currentEl.getAttribute("name");
 				String surname = currentEl.getAttribute("surname");
+				int age = Integer.parseInt(currentEl.getAttribute("age"));
 			
-				Person currentPerson = new Person(name, surname);
+				Person currentPerson = new Person(name, surname, age);
 				people.add(currentPerson);
 				
 				if(current.hasChildNodes()){
@@ -38,7 +39,9 @@ public class PersonReader {
 							Element currentChildElement = (Element) currentChild;
 							String childName = currentChildElement.getAttribute("name");
 							String childSurname = currentChildElement.getAttribute("surname");
-							currentPerson.addChild(new Person(childName, childSurname));							
+							int childAge = Integer.parseInt(currentChildElement.getAttribute("age"));
+							
+							currentPerson.addChild(new Person(childName, childSurname, childAge));							
 						}
 					
 					}

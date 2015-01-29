@@ -1,21 +1,21 @@
 <?xml version = "1.0"?>
 <people>
-	<person name = "Gorjan" surname = "Kalauzovic" >
-		<child name = "Selma" surname = "Tabakovic" />
+	<person name = "Gorjan" surname = "Kalauzovic" age = "32" >
+		<child name = "Selma" surname = "Tabakovic" age = "23" />
 	</person>
-	<person name = "Hiko" surname = "Lini" >
-		<child name = "Selma" surname = "Tabakovic" />
+	<person name = "Hiko" surname = "Lini" age = "22" >
+		<child name = "Selma" surname = "Tabakovic" age = "23" />
 	</person>
-	<person name = "Jesenko" surname = "Gavric" >
-		<child name = "Amra" surname = "Poprzanovic" />
+	<person name = "Jesenko" surname = "Gavric" age = "55" >
+		<child name = "Amra" surname = "Poprzanovic" age = "7" />
 	</person>
-	<person name = "Vedad" surname = "Zornic" >
-		<child name = "Nermin" surname = "Vucinic" />
+	<person name = "Vedad" surname = "Zornic" age = "55" >
+		<child name = "Nermin" surname = "Vucinic" age = "8" />
 	</person>
-	<person name = "Sanela" surname = "Grcic" >
-		<child name = "Selma" surname = "Tabakovic" />
+	<person name = "Sanela" surname = "Grcic" age = "65" >
+		<child name = "Selma" surname = "Tabakovic" age = "23" />
 	</person>
-	<person name = "Emina" surname = "Muratovic" >
-		<child name = "Selma" surname = "Tabakovic" />
+	<person name = "Emina" surname = "Muratovic" age = "98" >
+		<child name = "Selma" surname = "Tabakovic" age = "23" />
 	</person>
 </people>
